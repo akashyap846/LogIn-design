@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".join1"
+    android:background="@drawable/bl"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView android:src="@drawable/shark12"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FBFBFC"
+                android:text="PUBG ID"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/et25"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FCF8F8"
+                android:background="@drawable/shape"
+                android:textColorHint="#FCF8F8"
+                android:textColorHighlight="#FCF8F8"
+                android:textSize="20sp"
+                android:singleLine="true"
+                android:inputType="text"
+                />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FAFAFC"
+                android:text="PAYTM NUMBER"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                />
+            <EditText
+                android:id="@+id/et26"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FCF8F8"
+                android:background="@drawable/shape"
+                android:textColorHint="#FCF8F8"
+                android:textColorHighlight="#FCF8F8"
+                android:textSize="20sp"
+                android:inputType="phone"
+                android:maxLength="10"
+                />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_marginTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="JOIN"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+</LinearLayout>
